@@ -1,6 +1,6 @@
 @echo off
-nircmd exec hide C:\Users\Admin\Pictures\Camera Roll\pracadomowa\ben2.bat
+nircmd exec hide C:\Users\%USERPROFILE%\Pictures\ben2.bat
 :ben
-nircmd.exe clipboard readfile "C:\Users\Admin\Pictures\Camera Roll\pracadomowa\Benbraille.txt"
-timeout /t 2 /nobreak
+nircmd.exe clipboard readfile "C:\Users\%USERPROFILE%\Pictures\Benvirus\benvirus\Benbraille.txt"
+timeout /t 5 /nobreak
 GOTO :ben
